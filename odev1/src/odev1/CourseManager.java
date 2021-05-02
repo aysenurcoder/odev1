@@ -1,0 +1,11 @@
+package odev1;
+
+public class CourseManager {
+	public void add(Course course) {
+		System.out.println(course.courseName + " adlı kurs eklendi.");
+	}
+	public void delete(Course course) {
+		System.out.println(course.courseName + " adlı kurs silindi. ");
+	}
+	
+}
